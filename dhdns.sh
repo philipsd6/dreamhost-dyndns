@@ -1,7 +1,7 @@
 #!/bin/bash
 
-APIKEY="${APIKEY:?You must specify your Dreamhost API key in your environment}"
-DNSRECORD="${DNSRECORD:?You must set the target DNS record in your environment}"
+APIKEY="${DHDNS_APIKEY:?You must specify your Dreamhost API key in your environment}"
+DNSRECORD="${DHDNS_DNSRECORD:?You must set the target DNS record in your environment}"
 
 SCRIPTNAME=${0##*/}
 
