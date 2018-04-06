@@ -41,6 +41,7 @@ function api {
         error "cmd=$cmd $*: ${response[@]:1}"
         exit 1
     fi
+    printf "%s\n" "${response[@]}"
 }
 
 # BEGIN
